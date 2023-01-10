@@ -5,7 +5,6 @@ import FIcon from 'react-native-vector-icons/Feather';
 import FAIcon from 'react-native-vector-icons/FontAwesome';
 import IIcon from 'react-native-vector-icons/Ionicons';
 
-
 export function ProfileIcon({ color }) {
     return (<AIcon
         size={25}
@@ -53,6 +52,7 @@ export function Reports({ color }) {
         name="file-tray-full-outline"
     />)
 }
+
 // function componentIcon(whichLib, name, size) {
 //     return (`<${whichLib} name=${name} size=${size}/>`)
 // }
